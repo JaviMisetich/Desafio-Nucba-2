@@ -1,0 +1,46 @@
+.sub-conteiner {
+    background-color: rgb(81, 133, 133) ;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.conteiner {
+        background-color: rgb(112, 112, 112) ;
+        width: 400px;
+        height: 700px;
+        box-shadow: 0px 0px 22px 6px rgba(0, 0, 0, 0.2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+}
+
+html, body{
+    background-color: #ffffffcb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;}
+
+header, section, form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    }
+
+p{
+    font-family: cursive;
+    font-size: xx-large;
+}
+img{
+    height: 4cm;
+}
+div{ 
+    line-height: 2%;
+}
+
