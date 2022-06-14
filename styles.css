@@ -1,13 +1,13 @@
-.sub-conteiner {
-    background-color: rgb(81, 133, 133) ;
+.sub-contenedor {
+    background-color: rgba(0, 0, 0, 0.445) ;
     height: 700px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.conteiner {
-        background-color: rgb(112, 112, 112) ;
+.contenedor {
+        background-color: rgba(180, 13, 1, 0) ;
         width: 400px;
         height: 700px;
         box-shadow: 0px 0px 22px 6px rgba(0, 0, 0, 0.2);
@@ -15,6 +15,21 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+}
+
+.entrar {
+    position: static;
+    margin-top: 2cm;
+    margin-left: 1.5cm;
+    padding: 25px;
+    background-color: rgb(94, 94, 94);
+    color: white;
+    width: 250px;
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
 }
 
 html, body{
@@ -25,22 +40,41 @@ html, body{
     height: 100%;
     width: 100%;}
 
-header, section, form {
+.forms {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     margin: 20px;
+}
+    section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 20px;
     }
+        
+    
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    
+}
 
 p{
     font-family: cursive;
     font-size: xx-large;
+    color: rgb(180, 13, 13);
 }
 img{
     height: 4cm;
 }
-div{ 
-    line-height: 2%;
+.recover-password{
+    margin-left: 3cm;
+    margin-top: 2cm;
 }
-
